@@ -22,6 +22,11 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons{
+    background-color: white;
+
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -56,7 +61,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../assets/images/rosie.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +151,7 @@ footer {
     min-height: 120px;
     margin: 0;
 }
-
+ 
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -188,4 +193,21 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
